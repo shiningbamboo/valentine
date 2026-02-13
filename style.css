@@ -1,0 +1,73 @@
+body {
+    background-color: #fce4ec; /* Soft pink background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars when the button runs away */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    max-width: 500px;
+}
+
+.header-img {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+.button-container {
+    margin: 30px 0;
+    position: relative;
+    height: 50px; /* Gives the buttons a stable area */
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#yes-btn {
+    background-color: #ff4081; /* Hot pink */
+    color: white;
+}
+
+#yes-btn:hover {
+    background-color: #f50057;
+}
+
+#no-btn {
+    background-color: #e0e0e0; /* Gray */
+    color: #333;
+    position: absolute; /* Allows it to be moved freely */
+}
+
+#shy-text {
+    font-size: 14px;
+    color: #888;
+}
+
+#success-gif {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
